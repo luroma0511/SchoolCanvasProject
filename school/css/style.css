@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.header {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.campusLogo {
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    margin: 8px;
+    background-color: aqua;
+}
+
+.account {
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    margin: 8px;
+    background-color: lightgray;
+}
+
+.header-text {
+    user-select: none;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 12px;
+    margin: auto;
+}
+
+.sectionHeader {
+    background-color: midnightblue;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionHeader > a {
+    text-align: center;
+    width: 110px;
+    height: 30px;
+    color: lightskyblue;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 12px;
+}
+
+.sectionHeader > a:hover {
+    background-color: mediumblue;
+}
+
+.content {
+    margin-top: 24px;
+    display: block;
+    user-select: none;
+}
+
+.course {
+    border-radius: 10px;
+    background-color: gray;
+    margin: auto;
+    max-width: 512px;
+    height: 124px;
+    font-weight: 500;
+}
+
+.course-select > div {
+    padding-left: 8px;
+}
+
+.courseName {
+    padding-top: 8px;
+    font-size: 1.5rem;
+}
+
+.courseID {
+    font-size: 1.25rem;
+}
+
+.courseTeacher {
+    font-size: 1.25rem;
+}
+
+.courseTerm {
+    font-size: 1rem;
+    padding-top: 16px;
+    padding-bottom: 9px;
+}

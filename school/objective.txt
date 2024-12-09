@@ -1,0 +1,8 @@
+Objective: Create a school online system
+
+The project should contain the following things:
+
+1. The grading system.
+2. The campus system.
+3. A messaging function.
+4. A blueprint that contains information about school staff and students.
